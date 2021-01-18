@@ -1,3 +1,8 @@
-import './style.css';
+import showHome from './modules/home';
+import * as Navbar from './modules/navBar';
 
-console.log('hello world neq nn11');
+showHome();
+
+Navbar.innerNavbar();
+
+//console.log('hello world neq nn11');
