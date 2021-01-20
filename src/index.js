@@ -1,6 +1,7 @@
 import * as Navbar from './modules/navBar';
 import showHome from './modules/home';
 import showMenu from './modules/menu';
+import showContact from './modules/contact';
 
 showHome();
 
@@ -18,4 +19,9 @@ Navbar.homeNav.addEventListener('click', () => {
 Navbar.menuNav.addEventListener('click', () => {
   clearContent();
   showMenu();
+});
+
+Navbar.contactNav.addEventListener('click', () => {
+  clearContent();
+  showContact();
 });
