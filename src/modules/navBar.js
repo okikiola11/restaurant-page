@@ -1,26 +1,5 @@
 import '../styles/navbar.css';
 
-// <div id="content">
-//   <nav class="navbar bg-light">
-//     <a class="navbar-brand" href="index.html">TROY FOODS</a>
-  
-//     <ul class="navbar-nav">
-//         <li class="nav-item active">
-//           <a class="nav-link" href="index.html">Home</a>
-//         </li>
-//         <li class="nav-item">
-//           <a class="nav-link" href="menu.html">Menu</a>
-//         </li>  
-//         <li class="nav-item">
-//           <a class="nav-link" href="contact.html">Contact</a>
-//         </li> 
-//       </ul>
-    
-//   </nav> 
-
-//   <div class="bg-img"></div>
-// </div>
-
 const content = document.getElementById('content');
 
 const navEl = document.createElement('nav');

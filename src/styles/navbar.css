@@ -23,6 +23,10 @@ nav {
   margin-left: -13%;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 .navbar-nav li {
   display: inline-block;
   padding-left: 10px;

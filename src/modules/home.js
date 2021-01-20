@@ -2,7 +2,6 @@ import '../styles/index.css';
 
 const content = document.getElementById('content');
 
-
 const showHome = () => {
   const name = document.createElement('div');
   name.classList.add('bg-img');
