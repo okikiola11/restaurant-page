@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.m-tp {
+  margin-top: 110px;
+  z-index: 1000;
+}
+
+.inner-cont {
+  flex-direction: row;
+  text-align: center;
+  line-height: 2.8;
+}
+
+.inner-cont h2 {
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.inner-cont p {
+  font-size: 1.6rem;
+  font-family: 'Comfortaa', cursive;
+}

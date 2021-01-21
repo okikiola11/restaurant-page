@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+html,
+body {
+  font-size: 12px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url('../9.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.text-center {
+  text-align: center;
+  top: 50%;
+  display: inline-block;       /* causes element width to shrink to fit content */
+  left: 50%;                   /* moves left side of image/element to center of parent element */
+  transform: translate(-50%);
+  position: relative;
+  z-index: 1000;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.text-center:hover {
+  color: #ff66b6;
+  cursor: pointer;
+}
