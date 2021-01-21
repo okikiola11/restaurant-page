@@ -5,9 +5,6 @@ import Pizza from '../images/2.jpg';
 import Noodles from '../images/3.jpg';
 
 const content = document.getElementById('content');
-// const firstImage = document.createElement('div');
-// const secondImage = document.createElement('div');
-// const thirdImage = document.createElement('div');
 
 const showMenu = () => {
   const menu = document.createElement('div');
@@ -36,14 +33,6 @@ const showMenu = () => {
 
   menuImageC.src = Noodles;
   menuImageC.classList.add('inner-container');
-
-  // firstImage.classList.add('menu-item');
-  // secondImage.classList.add('menu-item');
-  // thirdImage.classList.add('menu-item');
-  // menuAllImages.appendChild(firstImage);
-  // firstImage.classList.add('menu-item');
-  // firstImage.appendChild(menuImageA);
-  // content.appendChild(firstImage)
 
   menuAllImages.appendChild(menuImageA);
   menuAllImages.appendChild(menuImageB);
