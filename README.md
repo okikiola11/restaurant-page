@@ -2,7 +2,7 @@
 
 A simple restaurant site built using Javascript alone to generate its entire content.
 
-![screenshot](app/assets/images/screenshot.png)
+![screenshot](screenshot.png)
 
 
 ## Built With
@@ -28,8 +28,7 @@ To get a copy up and running follow these simple example steps:-
 
 
 ## Author
-- Okikiola Apelehin
-
+ Okikiola Apelehin
 
 - Github: [@okikiola11](https://github.com/okikiola11)
 - Twitter: [@Kikiolla3](https://twitter.com/Kikiolla3)
