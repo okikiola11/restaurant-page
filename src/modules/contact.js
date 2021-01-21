@@ -9,7 +9,7 @@ const showContact = () => {
   contactBg.classList.add('m-tp');
   contactBg.classList.add('container');
   content.appendChild(contactBg);
-  
+
   contactBg.innerHTML = `
       <div class="container">
         <div>
@@ -41,8 +41,7 @@ const showContact = () => {
       </div>  
     `;
 
-    return contactBg;
- 
+  return contactBg;
 };
 
 export default showContact;

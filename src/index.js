@@ -6,8 +6,9 @@ import showContact from './modules/contact';
 showHome();
 
 const clearContent = () => {
- content.innerHTML = "";
-}
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+};
 
 Navbar.innerNavbar();
 

@@ -7,11 +7,11 @@ const showHome = () => {
   name.classList.add('bg-img');
   content.appendChild(name);
 
-  const text = document.createElement('div')
+  const text = document.createElement('div');
   text.innerText = 'Nigerian Meals';
   text.classList.add('text-center');
-  
+
   name.appendChild(text);
-} 
+};
 
 export default showHome;

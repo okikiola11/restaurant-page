@@ -33,11 +33,13 @@ const innerNavbar = () => {
   navEl.classList.add('navbar');
   navbarBrand.classList.add('navbar-brand');
   navbarBrand.innerText = 'TROY FOODS';
-  
+
   navEl.appendChild(navbarBrand);
   navEl.appendChild(navLinks());
 
   document.body.insertBefore(navEl, content);
-}
+};
 
-export { homeNav, menuNav, contactNav, innerNavbar };
+export {
+  homeNav, menuNav, contactNav, innerNavbar,
+};
